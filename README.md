@@ -1,7 +1,6 @@
 
 # Reactの環境構築
 
-
 ### 1. Node.jsをインストール
 - LTS版＝安定版（推奨）
 - Current版は最新だけど、多少不安定。
@@ -11,6 +10,7 @@
   
 - VS CodeでYarnが使えるようにするために・・・(windows)<br>
   windows マーク > "powershell" で検索 > "管理者として実行する"
+
   ```
   Set-ExecutionPolicy RemoteSigned 
   ```
