@@ -37,6 +37,26 @@
 - `yarn run build`
 アプリを本番用に build フォルダにビルドします。
 
+
+### 6.　ルーティング例
+```ts
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SnapshotPage from './pages/SnapshotPage/SnapshotPage';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SnapshotPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+```
+
 ### 参考文献
 - [React 開発環境構築](https://qiita.com/rspmharada7645/items/25c496aee87973bcc7a5)
 - [windows 端末で yarn が実行できない](https://zenn.dev/nbstsh/scraps/a24621106b5cfd)
